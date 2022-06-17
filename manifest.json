@@ -1,7 +1,7 @@
 {
-  "vendor": "tiendadexime",
+  "vendor": "poctokin",
   "name": "store-theme",
-  "version": "6.1.5-beta.0",
+  "version": "6.1.6",
   "builders": {
     "styles": "2.x",
     "store": "0.x",
@@ -65,11 +65,7 @@
     "vtex.condition-layout": "2.x",
     "vtex.css-handles": "1.x",
     "vtex.search": "2.x",
-    "tiendadexime.multisite-segment-results": "1.x"
-  },
-  "peerDependencies": {
-    "vtex.reviews-and-ratings": "2.x",
-    "vtex.wish-list": "1.x"
+    "poctokin.multisite-segment-results": "2.x"
   },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }

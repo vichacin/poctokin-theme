@@ -4,75 +4,14 @@
       "experimentalOptimizeRendering": true
     },
     "children": [
-      "menu-item#category-indumentaria",
-      "menu-item#category-mascotas",
-      "menu-item#category-libros",
-      "menu-item#category-musica"
+      "menu-item#category-galletitas",
+      "menu-item#category-golosinas",
+      "menu-item#category-snacks",
+      "menu-item#category-helados",
+      "menu-item#category-almacen",
+      "menu-item#category-chocolates",
+      "menu-item#category-suplementos",
+      "menu-item#category-barras-de-cereal"
     ]
-  },
-
-  "menu-item#category-indumentaria": {
-    "props": {
-      "id": "menu-item-category-indumentaria",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/exm-moda-ximena-charras-reartes",
-        "noFollow": false,
-        "tagTitle": "Indumentaria",
-        "text": "Indumentaria"
-      }
-    }
-  },
-
-  "menu-item#category-mascotas": {
-    "props": {
-      "id": "menu-item-category-mascotas",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/exm-mascotas-flor-gonzalez",
-        "noFollow": false,
-        "tagTitle": "Mascotas",
-        "text": "Mascotas"
-      }
-    }
-  },
-
-  "menu-item#category-libros": {
-    "props": {
-      "id": "menu-item-category-libros",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/libros",
-        "noFollow": false,
-        "tagTitle": "Moda",
-        "text": "Libros"
-      }
-    }
-  },
-
-  "menu-item#category-musica": {
-    "props": {
-      "id": "menu-item-category-musica",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/musica",
-        "noFollow": false,
-        "tagTitle": "Musica",
-        "text": "Musica"
-      }
-    }
   }
-  
 }

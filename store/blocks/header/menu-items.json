@@ -1,0 +1,656 @@
+{
+  "menu-item#category-galletitas": {
+    "props": {
+      "id": "menu-item-category-galletitas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/galletitas",
+        "noFollow": false,
+        "tagTitle": "Galletitas",
+        "text": "Galletitas"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#galletitas"]
+  },
+  "vtex.menu@2.x:submenu#galletitas": {
+    "children": [
+      "vtex.menu@2.x:menu#submenugalletitas"
+    ]
+  },
+  "vtex.menu@2.x:menu#submenugalletitas": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#galletitas-dulces",
+      "menu-item#galletitas-rellenas-y-obleas",
+      "menu-item#galletitas-saladas",
+      "menu-item#galletitas-surtidas",
+      "menu-item#tostadas"
+    ]
+  },
+  "menu-item#galletitas-dulces": {
+    "props": {
+      "id": "menu-item-galletitas-dulces",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/galletitas/galletitas-dulces",
+        "noFollow": false,
+        "tagTitle": "Galletitas dulces",
+        "text": "Galletitas dulces"
+      }
+    }
+  },
+  "menu-item#galletitas-rellenas-y-obleas": {
+    "props": {
+      "id": "menu-item-galletitas-rellenas-y-obleas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/galletitas/galletitas-rellenas-y-obleas",
+        "noFollow": false,
+        "tagTitle": "Galletitas rellenas y obleas",
+        "text": "Galletitas rellenas y obleas"
+      }
+    }
+  },
+  "menu-item#galletitas-saladas": {
+    "props": {
+      "id": "menu-item-galletitas-saladas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/galletitas/galletitas-saladas",
+        "noFollow": false,
+        "tagTitle": "Galletitas saladas",
+        "text": "Galletitas saladas"
+      }
+    }
+  },
+  "menu-item#galletitas-surtidas": {
+    "props": {
+      "id": "menu-item-galletitas-surtidas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/galletitas/galletitas-surtidas",
+        "noFollow": false,
+        "tagTitle": "Galletitas surtidas",
+        "text": "Galletitas surtidas"
+      }
+    }
+  },
+  "menu-item#tostadas": {
+    "props": {
+      "id": "menu-item-tostadas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/galletitas/tostadas",
+        "noFollow": false,
+        "tagTitle": "Tostadas",
+        "text": "Tostadas"
+      }
+    }
+  },
+
+  "menu-item#category-golosinas": {
+    "props": {
+      "id": "menu-item-category-golosinas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/golosinas",
+        "noFollow": false,
+        "tagTitle": "Golosinas",
+        "text": "Golosinas"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#golosinas"]
+  },
+  "vtex.menu@2.x:submenu#golosinas": {
+    "children": [
+      "vtex.menu@2.x:menu#submenugolosinas"
+    ]
+  },
+  "vtex.menu@2.x:menu#submenugolosinas": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#caramelos",
+      "menu-item#chicles",
+      "menu-item#chupetines",
+      "menu-item#gomitas",
+      "menu-item#pastillas"
+    ]
+  },
+  "menu-item#caramelos": {
+    "props": {
+      "id": "menu-item-caramelos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/golosinas/caramelos",
+        "noFollow": false,
+        "tagTitle": "Caramelos",
+        "text": "Caramelos"
+      }
+    }
+  },
+  "menu-item#chicles": {
+    "props": {
+      "id": "menu-item-chicles",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/golosinas/chicles",
+        "noFollow": false,
+        "tagTitle": "Chicles",
+        "text": "Chicles"
+      }
+    }
+  },
+  "menu-item#chupetines": {
+    "props": {
+      "id": "menu-item-chupetines",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/golosinas/chupetines",
+        "noFollow": false,
+        "tagTitle": "Chupetines",
+        "text": "Chupetines"
+      }
+    }
+  },
+  "menu-item#gomitas": {
+    "props": {
+      "id": "menu-item-gomitas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/golosinas/gomitas",
+        "noFollow": false,
+        "tagTitle": "Gomitas",
+        "text": "Gomitas"
+      }
+    }
+  },
+  "menu-item#pastillas": {
+    "props": {
+      "id": "menu-item-pastillas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/golosinas/pastillas",
+        "noFollow": false,
+        "tagTitle": "Pastillas",
+        "text": "Pastillas"
+      }
+    }
+  },
+
+
+  "menu-item#category-snacks": {
+    "props": {
+      "id": "menu-item-category-snacks",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/snacks",
+        "noFollow": false,
+        "tagTitle": "Snacks",
+        "text": "Snacks"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#snacks"]
+  },
+  "vtex.menu@2.x:submenu#snacks": {
+    "children": [
+      "vtex.menu@2.x:menu#submenusnacks"
+    ]
+  },
+  "vtex.menu@2.x:menu#submenusnacks": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#snacks-fritos",
+      "menu-item#snacks-horneados"
+    ]
+  },
+  "menu-item#snacks-fritos": {
+    "props": {
+      "id": "menu-item-snacks-fritos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/snacks/snacks-fritos",
+        "noFollow": false,
+        "tagTitle": "Snacks fritos",
+        "text": "Snacks fritos"
+      }
+    }
+  },
+  "menu-item#snacks-horneados": {
+    "props": {
+      "id": "menu-item-snacks-horneados",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/snacks/snacks-horneados",
+        "noFollow": false,
+        "tagTitle": "Snacks horneados",
+        "text": "Snacks horneados"
+      }
+    }
+  },
+
+
+  "menu-item#category-helados": {
+    "props": {
+      "id": "menu-item-category-helados",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/helados",
+        "noFollow": false,
+        "tagTitle": "Helados",
+        "text": "Helados"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#helados"]
+  },
+  "vtex.menu@2.x:submenu#helados": {
+    "children": [
+      "vtex.menu@2.x:menu#submenuhelados"
+    ]
+  },
+  "vtex.menu@2.x:menu#submenuhelados": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#festejos",
+      "menu-item#palitos",
+      "menu-item#postres",
+      "menu-item#potes"
+    ]
+  },
+  "menu-item#festejos": {
+    "props": {
+      "id": "menu-item-festejos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/helados/festejos",
+        "noFollow": false,
+        "tagTitle": "Festejos",
+        "text": "Festejos"
+      }
+    }
+  },
+  "menu-item#palitos": {
+    "props": {
+      "id": "menu-item-palitos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/helados/palitos",
+        "noFollow": false,
+        "tagTitle": "Palitos",
+        "text": "Palitos"
+      }
+    }
+  },
+  "menu-item#postres": {
+    "props": {
+      "id": "menu-item-postres",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/helados/postres",
+        "noFollow": false,
+        "tagTitle": "Postres",
+        "text": "Postres"
+      }
+    }
+  },
+  "menu-item#potes": {
+    "props": {
+      "id": "menu-item-potes",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/helados/potes",
+        "noFollow": false,
+        "tagTitle": "Potes",
+        "text": "Potes"
+      }
+    }
+  },
+
+  
+  "menu-item#category-suplementos": {
+    "props": {
+      "id": "menu-item-category-suplementos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/suplementos",
+        "noFollow": false,
+        "tagTitle": "Suplementos",
+        "text": "Suplementos"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#suplementos"]
+  },
+  "vtex.menu@2.x:submenu#suplementos": {
+    "children": [
+      "vtex.menu@2.x:menu#submenusuplementos"
+    ]
+  },
+  "vtex.menu@2.x:menu#submenusuplementos": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#calcio",
+      "menu-item#defensas",
+      "menu-item#dieta-control",
+      "menu-item#fibra",
+      "menu-item#proteina",
+      "menu-item#vitalidad"
+    ]
+  },
+  "menu-item#calcio": {
+    "props": {
+      "id": "menu-item-calcio",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/suplementos/calcio",
+        "noFollow": false,
+        "tagTitle": "Calcio",
+        "text": "Calcio"
+      }
+    }
+  },
+  "menu-item#defensas": {
+    "props": {
+      "id": "menu-item-defensas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/suplementos/defensas",
+        "noFollow": false,
+        "tagTitle": "Defensas",
+        "text": "Defensas"
+      }
+    }
+  },
+  "menu-item#dieta-control": {
+    "props": {
+      "id": "menu-item-dieta-control",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/suplementos/dieta-control",
+        "noFollow": false,
+        "tagTitle": "Dieta control",
+        "text": "Dieta control"
+      }
+    }
+  },
+  "menu-item#fibra": {
+    "props": {
+      "id": "menu-item-fibra",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/suplementos/fibra",
+        "noFollow": false,
+        "tagTitle": "Fibra",
+        "text": "Fibra"
+      }
+    }
+  },
+  "menu-item#proteina": {
+    "props": {
+      "id": "menu-item-proteina",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/suplementos/proteina",
+        "noFollow": false,
+        "tagTitle": "Proteina",
+        "text": "Proteina"
+      }
+    }
+  },
+  "menu-item#vitalidad": {
+    "props": {
+      "id": "menu-item-vitalidad",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/suplementos/vitalidad",
+        "noFollow": false,
+        "tagTitle": "Vitalidad",
+        "text": "Vitalidad"
+      }
+    }
+  },
+
+
+  "menu-item#category-barras-de-cereal": {
+    "props": {
+      "id": "menu-item-category-barras-de-cereal",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/barras-de-cereal",
+        "noFollow": false,
+        "tagTitle": "Barras de Cereal",
+        "text": "Barras de Cereal"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#barras-de-cereal"]
+  },
+  "vtex.menu@2.x:submenu#barras-de-cereal": {
+    "children": [
+      "vtex.menu@2.x:menu#submenubarras-de-cereal"
+    ]
+  },
+  "vtex.menu@2.x:menu#submenubarras-de-cereal": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#barras-de-cereal",
+      "menu-item#barras-y-mix-de-frutos-secos"
+    ]
+  },
+  "menu-item#barras-de-cereal": {
+    "props": {
+      "id": "menu-item-barras-de-cereal",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/barras-de-cereal/barras-de-cereal",
+        "noFollow": false,
+        "tagTitle": "Barras de cereal",
+        "text": "Barras de cereal"
+      }
+    }
+  },
+  "menu-item#barras-y-mix-de-frutos-secos": {
+    "props": {
+      "id": "menu-item-barras-y-mix-de-frutos-secos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/barras-de-cereal/barras-y-mix-de-frutos-secos",
+        "noFollow": false,
+        "tagTitle": "Barras y mix de frutos secos",
+        "text": "Barras y mix de frutos secos"
+      }
+    }
+  },
+
+
+
+  "menu-item#category-almacen": {
+    "props": {
+      "id": "menu-item-category-almacen",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/almacen",
+        "noFollow": false,
+        "tagTitle": "Almacen",
+        "text": "Almacen"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#aceite"]
+  },
+  "vtex.menu@2.x:submenu#aceite": {
+    "children": [
+      "vtex.menu@2.x:menu#submenuaceite"
+    ]
+  },
+  "vtex.menu@2.x:menu#submenuaceite": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#aceite"
+    ]
+  },
+  "menu-item#aceite": {
+    "props": {
+      "id": "menu-item-aceite",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/almacen/aceite",
+        "noFollow": false,
+        "tagTitle": "Aceite",
+        "text": "Aceite"
+      }
+    }
+  },
+
+  "menu-item#category-chocolates": {
+    "props": {
+      "id": "menu-item-category-chocolates",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/chocolates",
+        "noFollow": false,
+        "tagTitle": "Chocolates",
+        "text": "Chocolates"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#chocolates"]
+  },
+  "vtex.menu@2.x:submenu#chocolates": {
+    "children": [
+      "vtex.menu@2.x:menu#submenuchocolates"
+    ]
+  },
+  "vtex.menu@2.x:menu#submenuchocolates": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#alfajores"
+    ]
+  },
+  "menu-item#alfajores": {
+    "props": {
+      "id": "menu-item-alfajores",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/chocolates/alfajores",
+        "noFollow": false,
+        "tagTitle": "Alfajores",
+        "text": "Alfajores"
+      }
+    }
+  }
+
+}
