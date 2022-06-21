@@ -63,6 +63,12 @@
     },
     "children": ["logo#desktop"]
   },
+  "search-bar": {
+    "blocks": ["autocomplete-result-list.v2"],
+    "props": {
+      "openAutocompleteOnFocus": true
+    }
+  },
   "flex-layout.col#category-menu": {
     "props": {
       "verticalAlign": "middle",
