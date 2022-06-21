@@ -1,5 +1,5 @@
 {
-  "vtex.menu@2.x:menu#category-menu": {
+  "vtex.menu@2.x:menu#category-menu1": {
     "props": {
       "experimentalOptimizeRendering": true
     },
@@ -7,8 +7,28 @@
       "menu-item#category-galletitas",
       "menu-item#category-golosinas",
       "menu-item#category-snacks",
-      "menu-item#category-helados",
-      "menu-item#category-almacen",
+      "menu-item#category-helados"
+    ]
+  },
+
+  "vtex.menu@2.x:menu#category-menu2": {
+    "props": {
+      "experimentalOptimizeRendering": true
+    },
+    "children": [
+      "menu-item#category-galletitas",
+      "menu-item#category-golosinas",
+      "menu-item#category-snacks",
+      "menu-item#category-almacen"
+    ]
+  },
+
+  "vtex.menu@2.x:menu#category-menu3": {
+    "props": {
+      "experimentalOptimizeRendering": true
+    },
+    "children": [
+      "menu-item#category-snacks",
       "menu-item#category-chocolates",
       "menu-item#category-suplementos",
       "menu-item#category-barras-de-cereal"

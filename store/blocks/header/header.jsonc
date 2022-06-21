@@ -8,20 +8,13 @@
   "header-layout.desktop": {
     "children": [
       "flex-layout.row#1-desktop",
-      "sticky-layout#4-desktop",
-      "flex-layout.row#2-desktop"
+      "sticky-layout#4-desktop"
     ]
   },
   "flex-layout.row#1-desktop": {
     "children": ["telemarketing"],
     "props": {
       "fullWidth": true
-    }
-  },
-  "flex-layout.row#2-desktop": {
-    "children": ["flex-layout.col#category-menu"],
-    "props": {
-      "fullWidth": "true"
     }
   },
   "notification.bar#home": {
@@ -51,6 +44,9 @@
     },
     "children": [
       "flex-layout.col#logo-desktop",
+      "conditionalSegmentBlock#menu1",
+      "conditionalSegmentBlock#menu2",
+      "conditionalSegmentBlock#menu3",
       "flex-layout.col#spacer",
       "search-bar",
       "login",
@@ -69,13 +65,52 @@
       "openAutocompleteOnFocus": true
     }
   },
-  "flex-layout.col#category-menu": {
+  "conditionalSegmentBlock#menu1": {
+    "props": {
+      "segmentParameter": "productClusterIds",
+      "segmentValue": 167
+    },
+    "children": ["flex-layout.col#category-menu1"]
+  },
+  "conditionalSegmentBlock#menu2": {
+    "props": {
+      "segmentParameter": "productClusterIds",
+      "segmentValue": 168
+    },
+    "children": ["flex-layout.col#category-menu2"]
+  },
+  "conditionalSegmentBlock#menu3": {
+    "props": {
+      "segmentParameter": "productClusterIds",
+      "segmentValue": 172
+    },
+    "children": ["flex-layout.col#category-menu3"]
+  },
+  "flex-layout.col#category-menu1": {
     "props": {
       "verticalAlign": "middle",
       "blockClass": "category"
     },
     "children": [
-      "vtex.menu@2.x:menu#category-menu"
+      "vtex.menu@2.x:menu#category-menu1"
+    ]
+  },
+  "flex-layout.col#category-menu2": {
+    "props": {
+      "verticalAlign": "middle",
+      "blockClass": "category"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#category-menu2"
+    ]
+  },
+  "flex-layout.col#category-menu3": {
+    "props": {
+      "verticalAlign": "middle",
+      "blockClass": "category"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#category-menu3"
     ]
   },
   "logo#desktop": {
