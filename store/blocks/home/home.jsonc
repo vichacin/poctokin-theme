@@ -2,7 +2,9 @@
   "store.home": {
     "blocks": [
       "rich-text#shelf-title",
-      "flex-layout.row#shelf",
+      "conditionalSegmentBlock#shelf1",
+      "conditionalSegmentBlock#shelf2",
+      "conditionalSegmentBlock#shelf3",
       "newsletter"
     ]
   },
@@ -12,6 +14,28 @@
       "text": "## Segmentacion",
       "blockClass": "shelfTitle"
     }
+  },
+
+  "conditionalSegmentBlock#shelf1": {
+    "props": {
+      "segmentParameter": "productClusterIds",
+      "segmentValue": 167
+    },
+    "children": ["flex-layout.row#shelf"]
+  },
+  "conditionalSegmentBlock#shelf2": {
+    "props": {
+      "segmentParameter": "productClusterIds",
+      "segmentValue": 168
+    },
+    "children": ["flex-layout.row#shelf"]
+  },
+  "conditionalSegmentBlock#shelf3": {
+    "props": {
+      "segmentParameter": "productClusterIds",
+      "segmentValue": 172
+    },
+    "children": ["flex-layout.row#shelf"]
   },
 
   "flex-layout.row#shelf": {
