@@ -149,14 +149,9 @@
   },
   "menu#drawer": {
     "children": [
-      "menu-item#category-galletitas",
-      "menu-item#category-golosinas",
-      "menu-item#category-snacks",
-      "menu-item#category-helados",
-      "menu-item#category-almacen",
-      "menu-item#category-chocolates",
-      "menu-item#category-suplementos",
-      "menu-item#category-barras-de-cereal"
+      "conditionalSegmentBlock#menu1",
+      "conditionalSegmentBlock#menu2",
+      "conditionalSegmentBlock#menu3"
     ],
     "props": {
       "orientation": "vertical"
